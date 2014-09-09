@@ -14,18 +14,80 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+figure
+{
+	margin:0px;		
+	}
+main {
+  margin: 0 auto;
+   border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  background:white;
+  width: 420px;
+height: 401px;
+}
+
 body {
-  margin: 0;
-  padding: 0;
+margin: 44px;
+padding: 0;
+margin-top: 0px;
+background: rgba(128, 128, 128, 0.25);
 }
 
 img {
-  display: block;
-  width: 100%;
+display: block;
+width: 100%;
+margin: 0 auto;
+border-radius: 8px 8px 0px 0px;
+}
+
+figcaption {
+margin-top: -70px;
+color: #FFF;
+padding: 13px;
+font-size: 15px;
+background: rgba(0, 0, 0, 0.34);
+position: relative;
+z-index: 2;
+}
+
+header{
+	padding-left: 14px;
+margin-top: -10px;
+}
+
+header h1 strong {
+font-size: 19px;
+}
+
+.content {
+float: left;
+margin-left: 13px;
+height: 43px;
+padding-right: 12px;
+border-right: solid grey 1px;
+}
+
+.content:last-child {
+border:none;
+}
+
+.body {
+	height: 80px;
+margin-left: 3px;
+}
+
+.content h2 {
+padding-right: 64px;
+font-size: 13px;
+color: gray;
+margin-bottom: -10px;
+margin-top: -5px;
 }
